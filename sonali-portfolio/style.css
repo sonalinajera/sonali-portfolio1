@@ -1,0 +1,87 @@
+/* google font import */
+@import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+
+/* makes all font this google foont */
+* {
+  font-family: "Jost", sans-serif;
+}
+
+/* centering content */
+.wrapper {
+  width: 580px;
+  margin: auto;
+}
+
+/* header */
+header {
+  background-color: darkorange;
+  padding: 20px;
+  text-align: center;
+  border: 4px #ef7129 solid;
+}
+
+header img {
+  border-radius: 10px;
+}
+
+h1 {
+  width: 50%;
+  float: right;
+  padding: 0px;
+  color: rgb(228, 214, 202);
+}
+
+/* main */
+
+/* This pattern is downloaded from www.subtlepatterns.com */
+body {
+  background-color: #fff;
+  background-image: url("images/body/webb.png");
+  background-repeat: repeat;
+}
+
+body p {
+  text-align: left;
+}
+
+/* styles the links that have text */
+a:link {
+  color: #a14e17;
+}
+a:visited {
+  color: #f8610a;
+}
+a:hover {
+  color: #df1414;
+}
+a:active {
+  color: pink;
+}
+
+/* phone number  */
+a[href^="tell:"] {
+  color: pink;
+}
+
+/* google map */
+iframe {
+  width: 100%;
+}
+
+/* footer */
+footer {
+  background-color: darkorange;
+  padding: 20px;
+  margin: 20px 0px 0px 0px;
+  border: 4px #ef7129 solid;
+}
+
+footer p {
+  text-align: center;
+  color: rgb(228, 214, 202);
+}
+
+.gap-sm {
+  height: 20px;
+  width: auto;
+}
